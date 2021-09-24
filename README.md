@@ -1,15 +1,19 @@
-# Basic Sample Hardhat Project
+# Wave at me!!
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+a solidity smart contract for collecting waves and its associated message.
+build with the help of hardhat.
 
-Try running some of the following tasks:
-
+for testing
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+npx hardhat scripts/run.js
+```
+
+for deploying
+```shell
+npx hardhat scripts/deploy.js --network <NETWORK_NAME>
+```
+
+for running a local network
+```shell
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
